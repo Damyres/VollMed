@@ -9,7 +9,6 @@ Voll Med é sistema que gerencia os cadastros, atualizaçoes e exclusões de mé
 
 # Requisitos
 
-
 ## Requisitos funcionais (Médico)
 O sistema deve possuir uma funcionalidade de cadastro de médicos, na qual as seguintes informações deverão ser preenchidas:
 - Nome
@@ -118,6 +117,7 @@ Nessa aplicação vamos utilizar banco de dados relacional (SQL) com integraçã
 - Postman
 
 # Estrutura do banco (PostgreSQl)
+- Table Medicos
 CREATE TABLE medicos (
 
 ID SERIAL PRIMARY KEY ,
