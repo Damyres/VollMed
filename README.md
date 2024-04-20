@@ -117,7 +117,8 @@ Nessa aplicação vamos utilizar banco de dados relacional (SQL) com integraçã
 - Postman
 
 # Estrutura do banco (PostgreSQl)
-- Table Medicos
+- Table Médicos
+
 CREATE TABLE medicos (
 
 ID SERIAL PRIMARY KEY ,
@@ -143,4 +144,14 @@ NUMERO VARCHAR(20),
 UF CHAR(2) NOT NULL ,
 
 CIDADE VARCHAR(100) NOT NULL
+)
+ - Tabela de  Usuários
+
+CREATE TABLE USUARIOS (
+
+ID            SERIAL PRIMARY KEY,
+
+LOGIN         VARCHAR(100) NOT NULL,
+
+SENHA         VARCHAR(255) NOT NULL
 )
